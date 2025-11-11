@@ -1,0 +1,80 @@
+.OneEx{
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+.OneEx button{
+    background-color: rgb(0, 115, 209);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.unvisible{
+    display: none;
+}
+.TwoEx button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+.TwoEx{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.TwoEx :nth-child(1){
+    background-color: rgb(139, 71, 22);
+}
+.TwoEx :nth-child(2){
+    background-color: rgb(54, 27, 11);
+    color: white;
+}
+.TwoEx :nth-child(3){
+    background-color: rgb(15, 190, 15);
+}
+#drinkP{
+    text-align: center;
+    margin-top: 15px;
+}
+.cacao{
+    color: rgb(70, 23, 0);
+}
+.coffe{
+    color: rgb(119, 53, 22);
+}
+.tea{
+    color: rgb(9, 172, 9);
+}
+.bg1{
+    background-color: rgb(138, 138, 25);
+}
+.bg2{
+    background-color: rgb(163, 66, 10);
+}
+.bg3{
+    background-color: rgb(11, 29, 65);
+}
+.ThreeEx{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.ThreeEx button{
+    width: 120px;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+}
+.ThreeEx :nth-child(1){
+    background-color: yellow;
+}
+.ThreeEx :nth-child(2){
+    background-color: orange;
+}
+.ThreeEx :nth-child(3){
+    background-color: rgb(28, 3, 75);
+    color: white;
+}
